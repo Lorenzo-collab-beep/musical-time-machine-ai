@@ -44,7 +44,7 @@ sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
     scope="user-read-playback-state user-modify-playback-state"
 ))
 
-# Example: get current user info
+Example: get current user info
 user = sp.current_user()
 print(user["display_name"])
 
